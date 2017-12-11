@@ -405,8 +405,51 @@ def bot(op):
                     cl.sendText(msg.to,hpMessage)
                 else:
                     cl.sendText(msg.to,hpMessage)
-
-
+            elif "tgbot" == msg.text:
+            	cl.sendText(msg.to,"Dibawah ini adalah Daftar Kontak BOT TGB")
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': kimid}
+                cl.sendMessage(msg) 
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': ki2mid}
+                cl.sendMessage(msg) 
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': ki3mid}
+                cl.sendMessage(msg) 
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': ki4mid}
+                cl.sendMessage(msg)
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': ki5mid}
+                cl.sendMessage(msg) 
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': ki6mid}
+                cl.sendMessage(msg) 
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': ki7mid}
+                cl.sendMessage(msg) 
+                msg.contentType = 13
+                
+            elif "tgb1" == msg.text:
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': kimid}
+                cl.sendMessage(msg)
+            elif "tgb2" == msg.text:
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': ki2mid}
+                cl.sendMessage(msg)
+            elif "tgb3" == msg.text:
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': ki3mid}
+                cl.sendMessage(msg)
+            elif "tgb4" == msg.text:
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': ki4mid}
+                cl.sendMessage(msg)
+            elif "tgb5" == msg.text:
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': ki5mid}
+                cl.sendMessage(msg)
             elif msg.text in ["Bot1 Gift","Bot1 gift"]:
                 msg.contentType = 9
                 msg.contentMetadata={'PRDID': '3b92ccf5-54d3-4765-848f-c9ffdc1da020',
