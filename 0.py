@@ -17,7 +17,7 @@ import goslate
 
 #tinkerbell
 cl = LINETCR.LINE()
-cl.login(qr=True)
+cl.login(token="EnPqPA1Rcg83o27naIC1.TA54dxsS3sWfT1dVF7sUmq.G7j9VasepEbrLG6ar8N+ejqTMbLVHETvPBpQa9YwFRc=")
 cl.loginResult()
 
 #print "✍D̴E̴D̴I̴ T̴E̴A̴M̴B̴O̴T̴✈"
