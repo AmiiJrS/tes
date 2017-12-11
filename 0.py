@@ -20,7 +20,7 @@ cl = LINETCR.LINE()
 cl.login(qr=True)
 cl.loginResult()
 
-print "✍D̴E̴D̴I̴ T̴E̴A̴M̴B̴O̴T̴✈"
+#print "✍D̴E̴D̴I̴ T̴E̴A̴M̴B̴O̴T̴✈"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 helpMessage ="""Ꭲ̡̦͎͇͈̘̻̎̉̅́̒͗ͅHelp CommandᎢ̡̦͎͇͈̘̻̎̉̅́̒͗ͅ
