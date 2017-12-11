@@ -10,7 +10,7 @@ from gtts import gTTS
 
 #tinkerbell
 cl = LINETCR.LINE()
-cl.login(qr=True)
+cl.login(token="EnLfyFqMzW2SbJd3mTH4.nHLUPXn+LvHqyVGWpBRifa.qUd1M5/2GyudcMr+wyTseFnPChtXEeESqGZcxN8swy4=")
 cl.loginResult()
 #vidia
 kt = LINETCR.LINE()
@@ -3249,8 +3249,10 @@ def bot(op):
             elif msg.text in ["Sp","Speed","Desah"]:
                 start = time.time()
                 print("Speed")
-                elapsed_time = time.time() - start
                 cl.sendText(msg.to, "Pᵉˡᵃⁿ-Pᵉˡᵃⁿ Sᵃʸᵃⁿᵍ...😃")
+                start = time.time()
+                time.sleep(0.02)
+                elapsed_time = time.time() - start
                 cl.sendText(msg.to, "%sseconds" % (elapsed_time))  
                 cl.sendText(msg.to, "Tᵘʰ ᵏᵃᵃⁿ Cʳᵒᵗ ˢʸᵍ.. 😃")                                      
 
